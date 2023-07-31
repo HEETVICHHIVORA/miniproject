@@ -2,7 +2,7 @@
     font-family: 'Chakra Petch', sans-serif;
     margin: 0;
     padding: 0;
-    background-color:#d7c694;
+    background-color:#d8f7f1;
 }
 
 .nav{
@@ -10,12 +10,12 @@
     display: flex;
     text-transform: capitalize;
     justify-content: center;
-    background-color:#ded58a;
-    box-shadow:#4b1d1d 0px 0px 20px 0px;
+    background-color:#a1ccd1;
+    box-shadow:#4b1d1d 0px 0px 12px 0px;
     margin-bottom: 20px;
     position: sticky;
     z-index: 1;
-    -webkit-text-stroke: 0.7px #ff8f00;
+    -webkit-text-stroke: 1.2px #d97373;
 
 }
 
