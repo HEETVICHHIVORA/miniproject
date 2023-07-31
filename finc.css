@@ -1,0 +1,39 @@
+*{
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#d7c694;
+}
+
+.nav{
+    font-size: 40px;
+    display: flex;
+    text-transform: capitalize;
+    justify-content: center;
+    background-color:#ded58a;
+    box-shadow:#4b1d1d 0px 0px 20px 0px;
+    margin-bottom: 20px;
+    position: sticky;
+    z-index: 1;
+    -webkit-text-stroke: 0.7px #ff8f00;
+
+}
+
+.inputs{
+    display: flex;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+
+}
+.ibox{
+    display: flex;
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+    border: 3px solid #f05b5b
+
+}
+.i{
+    margin-bottom: 15px;
+    margin-left: 20px;
+}

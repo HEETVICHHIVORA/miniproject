@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>financial advisor</title>
+    <link rel="stylesheet" href="finc.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+</head>
+<header class="nav">your personal financial stability calculator</header>
+<body>
+    <div class="i">
+        <h2 class="inputs"  >Enter Your age:</h2>
+    <input class="ibox" type="text" id="userNameInput">
+
+    </div>
+    <div class="i">
+        <h2 class="inputs">enter your income:</h2>
+    <input class="ibox" type="text" id="income">
+    </div>
+
+    <div class="i">
+        <h2 class="inputs">Enter if you have any other side income (monthly)</h2>
+    <input class="ibox" type="text" id="sideincome">
+    </div>
+
+    <div class="i">
+        <h2 class="inputs">How much personal emi do you pay monthly ?</h2>
+        <input class="ibox" type="text" id="emi">   
+    </div>
+    <div class="i">
+        <h2 class="inputs">Enter the amount of money that is invested </h2>
+        <input class="ibox" type="text" id="cinvestment">   
+    </div>
+    <div class="i">
+        <h2 class="inputs">How much estimated returns do you make monthly on that amount in amount terms</h2>
+        <input class="ibox" type="text" id="cret">   
+    </div>
+     
+    <div class="i">
+        <h2 class="inputs">How much is your avg monthly expenditure?</h2>
+        <input class="ibox" type="text" id="exp">   
+    </div>
+
+    <div class="i">
+        <h2 class="inputs">How much amount is parked in fd's ?</h2>
+        <input class="ibox" type="text" id="savings">   
+    </div>
+    
+
+
+
+
+    
+
+
+
+    
+
+
+    <button onclick="submitName()">Submit</button>
+    <p id="displayName"></p>
+    <p id="displayincome"></p>
+    <p id="displayratio" ></p>
+    
+    <script>
+        function submitName() {
+            // Get the input value from the input box
+             age = document.getElementById("userNameInput").value;
+             income = document.getElementById("income").value;
+             emi = document.getElementById("emi").value;
+             
+            if(age<=20)
+            {
+                document.getElementById("displayName").innerText = "your age is less than 20";
+
+            }
+            else{
+                document.getElementById("displayName").innerText = "your age is grater than 20";
+
+            }
+            document.getElementById("displayincome").innerText =income;
+             document.getElementById("displayratio").innerText ="your emi to income ratio is "+emi/income;
+
+
+
+            // Display the user name in the paragraph
+        }
+    </script>
+</body>
+</html>
