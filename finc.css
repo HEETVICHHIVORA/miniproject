@@ -2,20 +2,36 @@
     font-family: 'Chakra Petch', sans-serif;
     margin: 0;
     padding: 0;
-    background-color:#d8f7f1;
+    background-color:#d7c694;
 }
+.box2{
+height:25vh;
+background-color: #dda365;
+width:90%;
+border-radius: 20px;
+position: relative;
+left: 05%;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid black;
+margin-bottom: 2%;
+
+
+}
+.main{}
 
 .nav{
     font-size: 40px;
     display: flex;
     text-transform: capitalize;
     justify-content: center;
-    background-color:#a1ccd1;
-    box-shadow:#4b1d1d 0px 0px 12px 0px;
+    background-color:#ded58a;
+    box-shadow:#4b1d1d 0px 0px 20px 0px;
     margin-bottom: 20px;
     position: sticky;
     z-index: 1;
-    -webkit-text-stroke: 1.2px #d97373;
+    -webkit-text-stroke: 0.7px #ff8f00;
 
 }
 
@@ -23,17 +39,27 @@
     display: flex;
     margin-bottom: 5px;
     text-transform: capitalize;
+    background-color: #dda365;
+    display: block;
 
 }
 .ibox{
     display: flex;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     height: 30px;
-    text-align: center;
-    border: 3px solid #f05b5b
-
+    width: 100px;
+    /* text-align: center; */
+    border: 3px solid #dda365;
+    
 }
 .i{
     margin-bottom: 15px;
     margin-left: 20px;
+text-decoration: none;
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
 }
